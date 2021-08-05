@@ -18,8 +18,8 @@ import io.reactivex.schedulers.Schedulers;
 public class Test2Model {
 
     public void getxinxi(Map<String, String> body, Observer<TestBean2> observer) {
-        Observable<TestBean2> gSxin = RetrofitManager.getSingleton().Apiservice(BaseUrlManager.BESE_URL2).getTaseData2();
-        gSxin.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(observer);
+//        Observable<TestBean2> gSxin = RetrofitManager.getSingleton().Apiservice(BaseUrlManager.BESE_URL2).getTaseData2();
+//        gSxin.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(observer);
 
     }
 }

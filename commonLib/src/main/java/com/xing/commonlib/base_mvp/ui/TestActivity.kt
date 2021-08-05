@@ -41,10 +41,10 @@ class TestActivity:MvpActivity<Gspresent>(),SimpleView{
         tvNontWork=findViewById<TextView>(R.id.tv_none_network)
         var map=HashMap<String,String>()
         var json=JSONObject.toJSONString(map)
-        body= RequestBody.create(MediaType.parse("application/json; charset=utf-8"),json)
-        btn.setOnClickListener {
-            presener?.getGSxinxi(body)
-        }
+//        body= RequestBody.create(MediaType.parse("application/json; charset=utf-8"),json)
+//        btn.setOnClickListener {
+//            presener?.getGSxinxi(body)
+//        }
     }
 
     override fun getLayoutId(): Int {

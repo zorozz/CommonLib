@@ -19,8 +19,8 @@ import okhttp3.RequestBody;
 public class GsModel {
 
     public void getxinxi(RequestBody body, Observer<TestBean> observer) {
-        Observable<TestBean> gSxin = RetrofitManager.getSingleton().Apiservice(BaseUrlManager.BESE_URL).getTestData(body);
-        gSxin.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(observer);
+//        Observable<TestBean> gSxin = RetrofitManager.getSingleton().Apiservice(BaseUrlManager.BESE_URL).getTestData(body);
+//        gSxin.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(observer);
 
     }
 
